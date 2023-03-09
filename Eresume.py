@@ -18,15 +18,12 @@ import requests
 def Get_Directory():
     current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
     print(current_dir)
-    #css = current_dir / "styles" / "main.css"
+    css = current_dir / "styles" / "main.css"
     #css = "C:/Users/Weihau.yap/.spyder-py3/Eresume/Digital-CV/styles/main.css"
-    css = 'main.css'
     #resume = "C:/Users/Weihau.yap/.spyder-py3/Eresume/Digital-CV/assets/resume.pdf"
-    #resume = current_dir / "assets" / "resume.pdf"
-    resume = 'resume.pdf'
+    resume = current_dir / "assets" / "resume.pdf"
     #profile_pic = "C:/Users/Weihau.yap/.spyder-py3/Eresume/Digital-CV/assets/pic.png"
-    #profile_pic = current_dir / "assets" / "pic.png"
-    profile_pic = 'pic.png'
+    profile_pic = current_dir / "assets" / "pic.png"
     return css, resume, profile_pic
     
 def Load_Assets(css, resume, profile_pic):

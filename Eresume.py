@@ -20,13 +20,13 @@ def Get_Directory():
     print(current_dir)
     css = current_dir / "styles" / "main.css"
     #css = "C:/Users/Weihau.yap/.spyder-py3/Eresume/styles/main.css"
-    css = "C://Users/Weihau.yap/.spyder-py3/Eresume/styles/main.css"
+    #css = "C://Users/Weihau.yap/.spyder-py3/Eresume/styles/main.css"
     #resume = "C:/Users/Weihau.yap/.spyder-py3/Eresume/assets/resume.pdf"
-    #resume = current_dir / "assets" / "resume.pdf"
-    resume = "C://Users/Weihau.yap/.spyder-py3/Eresume/assets/resume.pdf"
+    resume = current_dir / "assets" / "resume.pdf"
+    #resume = "C://Users/Weihau.yap/.spyder-py3/Eresume/assets/resume.pdf"
     #profile_pic = "C:/Users/Weihau.yap/.spyder-py3/Eresume/assets/pic.png"
-    profile_pic = "C://Users/Weihau.yap/.spyder-py3/Eresume/assets/pic.png"
-    #profile_pic = current_dir / "assets" / "pic.png"
+    #profile_pic = "C://Users/Weihau.yap/.spyder-py3/Eresume/assets/pic.png"
+    profile_pic = current_dir / "assets" / "pic.png"
     return css, resume, profile_pic
     
 def Load_Assets(css, resume, profile_pic):

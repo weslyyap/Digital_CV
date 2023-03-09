@@ -23,6 +23,7 @@ def Get_Directory():
     #css = "C://Users/Weihau.yap/.spyder-py3/Eresume/styles/main.css"
     #resume = "C:/Users/Weihau.yap/.spyder-py3/Eresume/assets/resume.pdf"
     resume = current_dir / "assets" / "resume.pdf"
+    resume.as_posix()
     #resume = "C://Users/Weihau.yap/.spyder-py3/Eresume/assets/resume.pdf"
     #profile_pic = "C:/Users/Weihau.yap/.spyder-py3/Eresume/assets/pic.png"
     #profile_pic = "C://Users/Weihau.yap/.spyder-py3/Eresume/assets/pic.png"

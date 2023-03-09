@@ -178,5 +178,5 @@ st.subheader("Projects & Accomplishments")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
-st.write("🏆 Security Analysis and Construction of Confidence Bits on a Secured Iris Recognition System - Final Year Project")
 st.write("🏆 Optical Character Recognition using Neutal Networks - Machine Learning in .NET Framework (C#)")
+st.write("🏆 Security Analysis and Construction of Confidence Bits on a Secured Iris Recognition System - Final Year Project")

@@ -109,7 +109,7 @@ st.write('\n')
 st.subheader("Experience & Qulifications")
 st.write(
     """
-- ✔️ 2 Years expereince collecting and extracting useful insights from data
+- ✔️ 2 Years experience collecting and extracting useful insights from data
 - ✔️ Fast learner that like to apply learnt knowledge and buid it on something new
 - ✔️ Eager to remove and automate labour work
 - ✔️ Excellent team-player and displaying strong sense of initiative on tasks
@@ -142,7 +142,7 @@ st.write(
     """
 - ► Developed C# PC based apps for precision measurement data acquisition that automated the process and reduced the total cycle time by 50%
 - ► Data manipulation (Numpy and Pandas) and data cleaning of all test data sets before built MySQL local database
-- ► Built the data pipeline to present the test data results on 3rd party Cloud Platform, Tulip subscirbed by company
+- ► Built the data pipeline to present the test data results on 3rd party Cloud Platform, Tulip subscribed by company
 - ► GitHub implementation version control
 """
 )
@@ -178,5 +178,8 @@ st.subheader("Projects & Accomplishments")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
-st.write("🏆 Optical Character Recognition using Neutal Networks - Machine Learning in .NET Framework (C#)")
+st.write("- ► An interactive dashboard that combined multiple datasets from Kaggle for missing data to perform EDA and classification using new dataset.")
+st.write("🏆 Optical Character Recognition using Neural Networks - Machine Learning in .NET Framework (C#)")
+st.write("- ► Build a Neural Networks based ML model app that recognizes handwritten digits from MNIST dataset.")
 st.write("🏆 Security Analysis and Construction of Confidence Bits on a Secured Iris Recognition System - Final Year Project")
+st.write("- ► Evaluate enhanced iris recognition model by analyzing genuine and impostor similarity scores.")

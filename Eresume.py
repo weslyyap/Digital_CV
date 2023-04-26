@@ -57,6 +57,7 @@ def Setup():
     }
     PROJECTS = {
         "🏆 Wine Cultivars Class Classifier Model - Cloud Deployment on Render": "https://wine-machine-learning-streamlit-app.onrender.com", #"https://github.com/weslyyap/Wine_MachineLearning-DataScience",
+        "🏆 Movie Recommender With Ranking System - Cloud Deployment on Render": "https://collaborative-filtering-movie-reco-lite.onrender.com/",
         #"🏆 Optical Character Recognition using Neutal Networks - Machine Learning in .NET Framework (C#)": "https://youtu.be/3egaMfE9388",
         #"🏆 Security Analysis and Construction of Confidence Bits on a Secured Iris Recognition System - Final Year Project": " ",
     }
@@ -178,7 +179,7 @@ st.subheader("Projects & Accomplishments")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
-st.write("- ► An interactive dashboard that combined multiple datasets from Kaggle for missing data to perform EDA and classification using new dataset.")
+#st.write("- ► An interactive dashboard that combined multiple datasets from Kaggle for missing data to perform EDA and classification using new dataset.")
 st.write("🏆 Optical Character Recognition using Neural Networks - Machine Learning in .NET Framework (C#)")
 st.write("- ► Build a Neural Networks based ML model app that recognizes handwritten digits from MNIST dataset.")
 st.write("🏆 Security Analysis and Construction of Confidence Bits on a Secured Iris Recognition System - Final Year Project")

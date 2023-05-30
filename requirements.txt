@@ -7,3 +7,4 @@ streamlit_lottie==0.0.3
 streamlit_option_menu==0.3.2
 wheel==0.38.4
 pathlib==1.0.1
+altair<5

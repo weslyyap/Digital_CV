@@ -48,7 +48,7 @@ def Setup():
     PAGE_ICON = ":wave:"
     NAME = "Yap Wei Hau"
     DESCRIPTION = """
-    RnD Engineer, understanding new products by gaining actionable insights through data.
+    RnD Data Analyst, understanding new products by gaining actionable insights through data.
     """
     EMAIL = "1weslyyap1@gmail.com"
     SOCIAL_MEDIA = {

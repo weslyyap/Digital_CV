@@ -56,7 +56,8 @@ def Setup():
         "GitHub": "https://github.com/weslyyap",
     }
     PROJECTS = {
-        "🏆 Movie Recommender With Ranking System - Cloud Deployment on Render": "https://collaborative-filtering-movie-reco-lite.onrender.com/",
+        "🏆 Multi-horizon Time Series Sales Forecasting With Deep Learning - Demonstrate the interpretability of Temporal Fusion Transformer (TFT), an attention-based DNN model through data visualization.": "https://github.com/weslyyap/Temporal-Fusion-Transformer-Sales-Forecasting",
+        "🏆 Movie Recommender With Ranking System - Cloud Deployment on Render": "https://collaborative-filtering-movie-reco-lite.onrender.com",
         "🏆 Wine Cultivars Class Classifier Model - Cloud Deployment on Render": "https://wine-machine-learning-streamlit-app.onrender.com", #"https://github.com/weslyyap/Wine_MachineLearning-DataScience"
         #"🏆 Optical Character Recognition using Neutal Networks - Machine Learning in .NET Framework (C#)": "https://youtu.be/3egaMfE9388",
         #"🏆 Security Analysis and Construction of Confidence Bits on a Secured Iris Recognition System - Final Year Project": " ",
@@ -123,10 +124,10 @@ st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 👩‍💻 Programming: Python (Scikit-learn, Pandas, Numpy), SQL, C# 
-- 📊 Data Visulization: Matplotlib, Seaborn, Plotly
-- 📚 Modeling: Logistic Regression, Linear Regression, Decision Trees
-- 🗄️ Database: MySQL
+- 👩‍💻 Programming: Python, SQL, C#, NI LabVIEW
+- 📊 Data Manipulation & Visulization: Numpy, Pandas, Matplotlib, Seaborn
+- 📚 Machine Learning & Deep Learning Modeling: Temporal Fusion Transformer, Neural Network using PyTorch and Sci-kit Learn
+- 🗄️ Database Management System: MySQL
 """
 )
 
@@ -137,25 +138,28 @@ st.subheader("Work History")
 st.write("---")
 
 # --- JOB 1
-st.write("🚧", "**RnD Engineer | Akribis Systems Pte Ltd**")
+st.write("🚧", "**RnD Data Analyst | Akribis Systems Pte Ltd**")
 st.write("03/2022 - Present")
 st.write(
     """
-- ► Developed C# PC based apps for precision measurement data acquisition that automated the process and reduced the total cycle time by 50%
-- ► Data manipulation (Numpy and Pandas) and data cleaning of all test data sets before built MySQL local database
-- ► Built the data pipeline to present the test data results on 3rd party Cloud Platform, Tulip subscribed by company
+- ► Developed PC based apps for precision measurement data acquisition that automated the process and reduced the total cycle time by 50%
+- ► Utilizing Python libraries (Numpy and Pandas) for Data Cleaning and Data Manipulation of all test data sets before storing into MySQL local database
+- ► Implemented Data Mining solution to business problems such as product recommendation to end customers
+- ► Presented product's insights through Data Visualization using Seaborn/Matplotlib to manager for product improvement`
+- ► Built the data pipeline Developed data pipeline between Tulip cloud web app and MySQL
 - ► GitHub implementation version control
 """
 )
 
 # --- JOB 2
 st.write('\n')
-st.write("🚧", "**LabVIEW Programmer | Fuji Master Engineering Sdn. Bhd.**")
+st.write("🚧", "**Software Engineer | Fuji Master Engineering Sdn. Bhd.**")
 st.write("06/2020 - 02/2022")
 st.write(
     """
-- ► Built NI LabVIEW application for production and manufacturing line with real time data logging feature based on customers' requirements
-- ► Data cleaning for test data sets before store in MySQL local database
+- ► Front-end and Back-end software development with real time Data Cleaning and Data Logging feature in MySQL DBMS
+- ► Ensured data integrity and resolved data errors before system deployment
+- ► Ensured and mantained the security of database in the production environment
 - ► Python OpenCV for in house Vision System Development
 """
 )
@@ -177,8 +181,6 @@ st.write(
 st.write('\n')
 st.subheader("Projects & Accomplishments")
 st.write("---")
-st.write("🏆 Multi-horizon Time Series Sales Forecasting With Deep Learning")
-st.write("- ► Demonstrate the interpretability of Temporal Fusion Transformer (TFT), an attention-based DNN model through data visualization.")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
 #st.write("- ► An interactive dashboard that combined multiple datasets from Kaggle for missing data to perform EDA and classification using new dataset.")

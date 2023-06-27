@@ -59,6 +59,7 @@ def Setup():
         "🏆 Multi-horizon Time Series Sales Forecasting With Deep Learning - Demonstrate the interpretability of Temporal Fusion Transformer (TFT), an attention-based DNN model through data visualization.": "https://github.com/weslyyap/Temporal-Fusion-Transformer-Sales-Forecasting",
         "🏆 Movie Recommender With Ranking System - Cloud Deployment on Render": "https://collaborative-filtering-movie-reco-lite.onrender.com",
         "🏆 Wine Cultivars Class Classifier Model - Cloud Deployment on Render": "https://wine-machine-learning-streamlit-app.onrender.com", #"https://github.com/weslyyap/Wine_MachineLearning-DataScience"
+        "🏆 Stock Market Portfolio Dashboard in Tableau Public": "https://public.tableau.com/app/profile/yap.fujimater/viz/StockMarketDashboard_16870153575530/Dashboard1",
         #"🏆 Optical Character Recognition using Neutal Networks - Machine Learning in .NET Framework (C#)": "https://youtu.be/3egaMfE9388",
         #"🏆 Security Analysis and Construction of Confidence Bits on a Secured Iris Recognition System - Final Year Project": " ",
     }
@@ -184,7 +185,8 @@ st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
 #st.write("- ► An interactive dashboard that combined multiple datasets from Kaggle for missing data to perform EDA and classification using new dataset.")
-st.write("🏆 Optical Character Recognition using Neural Networks - Machine Learning in .NET Framework (C#)")
-st.write("- ► Build a Neural Networks based ML model app that recognizes handwritten digits from MNIST dataset.")
+st.write("🏆 Sales Insights Dashboard in Tableau Desktop ")
+st.write("- ► Applied Aim's Grid which represents real life business decision making process.")
+st.write("- ► Performed whole ETL process using MySQL and connect the database server in Tableau Desktop.")
 st.write("🏆 Security Analysis and Construction of Confidence Bits on a Secured Iris Recognition System - Final Year Project")
 st.write("- ► Evaluate enhanced iris recognition model by analyzing genuine and impostor similarity scores.")
